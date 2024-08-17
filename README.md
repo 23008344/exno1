@@ -21,17 +21,17 @@ STEP 6: Use zscore of to remove outliers
 # Coding and Output
                                    ###Data cleaning
 
-```import pandas as pd
+import pandas as pd
 df=pd.read_csv("/content/SAMPLEIDS (1).csv")
-df```
+df
 ![image](https://github.com/user-attachments/assets/fc482989-09ea-4d80-9f69-f60b50975709)
-```df.isnull().sum()```
+df.isnull().sum()
 ![image](https://github.com/user-attachments/assets/a5faa84e-5552-46c0-b72b-4bbb82567b34)
-```df.isnull().any()```
+df.isnull().any()
 ![image](https://github.com/user-attachments/assets/cffeb597-cec4-46df-a1b6-1ce2961cc068)
-```df.dropna()```
+df.dropna()
 ![image](https://github.com/user-attachments/assets/f71813a6-7ed2-4ce1-9113-78f19dddb758)
-```df.fillna(0)```
+df.fillna(0)
 ![image](https://github.com/user-attachments/assets/c2ac14a8-af26-4444-9fc5-2a7818a2d982)
 ```df.fillna(method = 'ffill')```
 ![image](https://github.com/user-attachments/assets/989543f4-f3c1-4072-8e69-92a78fcc829d)
