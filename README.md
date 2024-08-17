@@ -61,7 +61,7 @@ df.fillna({'GENDER':'MALE','NAME':'SRI','ADDRESS':'POONAMALEE','M1':98,'M2':87,'
 ```
 ![image](https://github.com/user-attachments/assets/49edde14-08a1-499f-9883-74c1239425b2)
 
-                                               # IQR(Inter Quartile Range)
+# IQR(Inter Quartile Range)
 
 ```
 import pandas as pd
@@ -99,7 +99,7 @@ sns.boxplot(x='sepal_width',data=delid)
 ```
 ![image](https://github.com/user-attachments/assets/f009f213-357b-4b31-be4c-9c380aea4059)
 
-                                ###Z-Score
+# Z-Score
 ```
 import matplotlib.pyplot as plt
 import pandas as pd
